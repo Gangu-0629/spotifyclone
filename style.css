@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Delicious+Handrawn&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.oc{
+    display: flex;
+    background-color: black;
+    height:1000px;
+}
+
+.right{
+    background-color: aqua;
+    width:100%;
+    
+}
+.top{
+    display: flex;
+    height: 8%;
+    background-color: black;
+    justify-content: space-between;
+}
+.nalin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:15px;
+}
+a{
+    text-decoration: none;
+   color:white;
+   padding:20px;
+font-size: 20px;
+font-family: 'Alkatra', cursive;
+
+}
+a:hover{
+    color: aqua;
+    transition: 0.5s ease-in-out;
+}
+#signin{
+ padding: 10px;
+    border-radius: 20px;
+    
+}
+#signin:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s ease-out;
+}
+#login{
+    padding: 10px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
+    color: black;
+}
+#login:hover{
+    background-color: rgb(24, 23, 23);
+    transition: 0.2s ease-out;
+    color: aliceblue;
+}
+img{
+    position: absolute;
+    top:2px;
+    left:260px;
+    height:70px;
+    width:70px;
+}
+h1{
+    position:absolute;
+    top:14px;
+    left:18%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+}
+.footer{
+position: fixed;
+height: 100px;
+width:100%;
+background-color: orangered;
+bottom: 0px;
+}
+.bottom{
+    display: flex;
+    height: 92%;
+    flex-direction: column;
+}
+.inbox{
+    background-color: rgb(226, 43, 43);
+    height: 50%;
+    width: 100%;
+ 
+}
+.inhd{
+    height:10%;
+    width:100%;
+   
+    background-color: rgb(26, 25, 28);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:60px;
+  position: relative;
+  
+}
+
+.hed{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;  
+    font-size:30px;
+    left:25px;
+    top:50%;
+    transform: translateY(-30%);
+    color: white;
+}
+
+.movie{
+   
+    height: 90%;
+    width:100%;
+    background-color: rgb(26, 25, 28);
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.cd{
+    position: relative;
+    border-radius: 10px;
+    margin: 20px;
+    width:25%;
+    height:80%;
+    background-color: black;
+    
+
+}
+.po{
+ 
+    position:absolute;
+    top: 50%;
+    left:10%;
+    width:80%;
+    height:60%;
+    transform: translatey(-70%);
+    border-radius: 15px;
+    
+}
+.pn{
+    font-family: 'IBM Plex Sans', sans-serif;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top:70%;
+    font-size: 20px;
+}
+.pd{
+    font-family: 'Delicious Handrawn', cursive;
+    position:absolute;
+    font-size:16px;
+    color:white;
+    bottom: 10px;
+    left:15px;
+}
+.po:hover{
+    height: 70%;
+    width:90%;
+    left:5%;
+    top:40%;
+    transition: 0.2s ease-out;
+}
+
+.cd:hover{
+    background-color:rgb(17, 16, 16);
+    transition: 0.2s ease-in;
+ 
+}
+
+
+
+.left{
+    background-color: rgb(7, 7, 7);
+    width:20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.d1{
+    position: relative;
+    height:10%;
+    width:100%;
+    background-color: rgb(39, 36, 36);
+    
+}
+.d2{
+    display: flex;
+    flex-direction: column;
+    height:60%;
+    width:100%;
+    background-color:  rgb(98, 91, 91);
+}
+.d3{
+    height:30%;
+    background-color:  rgb(98, 91, 91);
+}
+
+.oc .left .d1 img{
+    position:absolute;
+    width:80%;
+    left:10px;
+    top:20%;
+}
+.icon{
+    position: relative;
+    display: flex;
+    background-color: rgb(98, 91, 91);
+    height:15%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap:4px;
+}
+.oc .left .d2 .icon .li img{
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+.li{
+    width:15%;
+    height:100%;
+}
+.lid{
+  
+    position: absolute;
+    top:50%;
+    transform: translatey(-50%);
+    width:75%;
+    height: 100%;
+}
+.oc .left .d2 .icon .lid h1{
+    font-family: 'Alkatra', cursive;
+font-family: 'Delicious Handrawn', cursive;
+font-size:30px;
+color:rgb(255, 255, 255);
+}
